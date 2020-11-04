@@ -22,3 +22,5 @@ Desktop.ini
 .DS_Store*
 ehthumbs.db
 Icon?
+prepros.config
+package-lock.json
