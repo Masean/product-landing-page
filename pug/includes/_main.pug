@@ -1,0 +1,12 @@
+include config.pug
+
+main.main_content
+  form#form(action="https://www.freecodecamp.com/email-submit"
+            method="post")
+    h1 #{myDesc}
+    input(type="email"
+          id="email"
+          name="uset_email"
+          placeholder="Enter your email address"
+          required)
+    button#submit(type="submit") Get started
