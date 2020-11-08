@@ -25,8 +25,8 @@ body {
 
 .links {
   display: flex;
-  justify-content: space-between;
-
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 #header-img {
@@ -39,7 +39,8 @@ body {
 .nav-link {
   text-decoration: none;
   color: black;
-  padding-left: 165px;
+  margin-left: 165px;
+
 }
 
 .main_content {
@@ -74,3 +75,11 @@ body {
   text-align: center;
 }
 
+.icon-car:after{
+  display: block;
+  content: '\f17b';
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  font-weight: 900;
+  width: 100px;
+  height: 100px;
+  }

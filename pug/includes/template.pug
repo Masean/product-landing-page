@@ -9,9 +9,10 @@ html(lang="en")
     title #{myTitle}
     block links
       link(rel="stylesheet", href="../css/style.css")
+      link(rel="stylesheet", href="../fonts/fontawesome/all.min.css")
       if GoogleFonts
         link(href="https://fonts.googleapis.com/css2?family="+GoogleFonts rel="stylesheet")
-  body
+      
     include _header.pug 
 
     include _main.pug
@@ -19,3 +20,5 @@ html(lang="en")
     //- include _footer.pug
 
     block scripts
+      script(src="https://kit.fontawesome.com/ee6ff44adb.js" 
+        crossorigin="anonymous")
