@@ -1,5 +1,6 @@
 body {
   background: #DCDCDC;
+  font-family: 'Lato', sans-serif;
 }
 
 #header {
@@ -54,6 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 #email {
@@ -75,11 +77,18 @@ body {
   text-align: center;
 }
 
-.icon-car:after{
-  display: block;
-  content: '\f17b';
-  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
-  font-weight: 900;
-  width: 100px;
-  height: 100px;
-  }
+.features-item{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.icon {
+  color: #FF7F00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  margin-right: 70px;
+}
+
