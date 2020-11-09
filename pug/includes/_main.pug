@@ -11,32 +11,4 @@ main.main_content
           required)
     button#submit(type="submit") Get started
 
-  #features 
-    section#materials.features-item
-      .icon
-        <i class="fa fa-fire fa-3x"></i>
-      .feateures-item-desc
-        h2.features-item-header Premium Materials
-        p.features-item-text
-          | Our trombones use the shiniest brass which is sourced locally.
-          | This will increase the longevity of your purchase.
-
-    section#shipping.features-item
-      .icon
-        <i class="fa fa-truck fa-3x"></i>
-      .feateures-item-desc
-          h2.features-item-header Fast Shipping
-          p.features-item-text
-            | We make sure you recieve your trombone
-            | as soon as we have finished making it. 
-            | We also provide free returns if you are not satisfied.
-
-    section#assurance.features-item
-      .icon
-        <i class="fa fa-battery-full fa-3x"></i>
-      .feateures-item-desc
-        h2.features-item-header Quality Assurance
-        p.features-item-text 
-          | For every purchase you make,
-          | we will ensure there are no damages or faults and we will check
-          | and test the pitch of your instrument.
+  include _features.pug
