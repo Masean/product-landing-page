@@ -97,3 +97,16 @@ body {
   justify-content: center;
   margin-top: 80px;
 }
+
+#pricing {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-desc {
+  border: solid black 1px;
+  border-radius: 2px;
+  width: 280px;
+  margin-left: 20px;
+}
