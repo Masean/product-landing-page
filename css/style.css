@@ -92,3 +92,8 @@ body {
   margin-right: 70px;
 }
 
+#how-it-work {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
