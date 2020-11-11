@@ -150,3 +150,36 @@ body {
   transition: 0.8s linear;
 
 }
+
+.footer {
+  height: 70px;
+  width: 100%;
+  background:  rgba(204, 204, 204, 0.95);
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vh;
+  height: 100%;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  color: rgba(0, 0, 0, 0.7);
+}
+
