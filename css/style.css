@@ -132,6 +132,7 @@ body {
 
 #pricing ul {
   margin: 20px 0;
+  line-height: 2;
 }
 
 #pricing .price-desc-button {
