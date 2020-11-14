@@ -14,11 +14,12 @@ html(lang="en")
         link(href="https://fonts.googleapis.com/css2?family="+GoogleFonts rel="stylesheet")
       
     body
-      include _header.pug 
+      .container
+        include _header.pug 
 
-      include _main.pug
-    
-      include _footer.pug
+        include _main.pug
+      
+        include _footer.pug
 
-      block scripts
-        script(src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js") 
+        block scripts
+          //- script(src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js") 

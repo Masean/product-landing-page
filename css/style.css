@@ -24,10 +24,16 @@ body {
   padding-right: 80px;
 }
 
+@media (max-width: 800px) {
+  .navbar {padding-left: 5px;
+            padding-right: 10px;}
+}
+
 .links {
   display: flex;
   justify-content: space-between;
   width: 35vw;
+  padding: 0;
 }
 
 #header-img {
@@ -37,6 +43,19 @@ body {
   padding: 0;
 
 }
+
+@media (max-width: 600px) {
+  .navbar, .links {flex-direction: column;
+                   align-items: flex-start;
+                   }
+  #header {height: 150px;}
+
+  .links {padding-left: 40px;}
+
+  #header-img {margin-top: 20px;
+                padding-left:20px}
+}
+
 
 .nav-link {
   text-decoration: none;
