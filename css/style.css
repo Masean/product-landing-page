@@ -84,7 +84,7 @@ height: auto;
 @media screen and (max-width: 598px){
   .main_content {
     margin-top: 100px;
-    width: 70vh;
+    width: 100vh;
     margin-left: auto;
     margin-right: auto;
   }
