@@ -225,14 +225,22 @@ height: auto;
 
 
 .footer {
-  height: 90px;
-  width: 100vh;
+  height: 100px;
+  width: 100%;
   background:  rgba(204, 204, 204, 0.95);
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: flex-end;
 
 }
+
+@media screen and (max-width: 598px) {
+  .footer {
+    height: 100px;
+    width: 100vh;
+  }
+  }
 
 .contact {
   display: flex;
